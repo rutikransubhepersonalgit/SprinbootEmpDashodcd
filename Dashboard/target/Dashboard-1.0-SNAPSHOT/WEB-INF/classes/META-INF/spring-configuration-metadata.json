@@ -1,0 +1,30 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.dashboardjava.config.MultipleDBConfiguration",
+      "name": "spring.datasource",
+      "sourceMethod": "firstDataSource()",
+      "type": "javax.sql.DataSource"
+    },
+    {
+      "sourceType": "com.dashboardjava.config.MultipleDBConfiguration",
+      "name": "spring.finance",
+      "sourceMethod": "fourthDatasource()",
+      "type": "javax.sql.DataSource"
+    },
+    {
+      "sourceType": "com.dashboardjava.config.MultipleDBConfiguration",
+      "name": "spring.hrms",
+      "sourceMethod": "secondDataSource()",
+      "type": "javax.sql.DataSource"
+    },
+    {
+      "sourceType": "com.dashboardjava.config.MultipleDBConfiguration",
+      "name": "spring.x0",
+      "sourceMethod": "thirdDatasource()",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": []
+}
